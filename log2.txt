@@ -1,0 +1,142 @@
+****************************
+****Connect to openshift****
+****************************
+00:55:33:800418400 Bob - Running Bob...
+00:55:33:830368500 Bob - Initialize Connection
+00:55:34:697729100 Bob - Create Connection
+00:55:35:553173200 Bob -   - sendInt: 4
+00:55:35:813677000 Bob -   - upMutex()
+00:55:40:727153400 Alice - Running Alice...
+00:55:40:759883500 Alice - Create Connection
+00:55:41:559515300 Alice -   - receiveInt: 4
+00:55:41:845631900 Alice -   - downMutex()
+00:55:41:868264700 Alice - Connection Established
+00:55:42:662782100 Alice -   - sendInt: 258
+00:55:42:970635100 Alice -   - upMutex()
+00:55:43:003464600 Alice - Parse IOformat file and prepare inputs
+00:55:43:054446800 Alice - Parse Circuit File
+00:55:43:479509200 Alice - Start the SFE protocol
+00:55:43:507177500 Alice - Receive encrypted circuit
+00:55:43:902954700 Bob -   - receiveInt: 258
+00:55:44:175685800 Bob -   - downMutex()
+00:55:44:208750100 Bob - Connection Established
+00:55:44:249826300 Bob - Parse IOformat file and prepare inputs
+00:55:44:291594300 Bob - Parse Circuit File
+00:55:44:489949100 Bob - Start the SFE protocol
+00:55:44:513437400 Bob - Send encrypted circuit
+00:55:45:253404900 Bob -   - sendBytes String length: 663060
+00:55:47:441672200 Bob -   - upMutex()
+00:55:50:264026900 Alice -   - receiveBytes String length: 663060
+00:55:50:572585800 Alice -   - downMutex()
+00:55:51:565626600 Bob -   - sendBytes String length: 663060
+00:55:52:443995400 Bob -   - upMutex()
+00:55:57:302967900 Alice -   - receiveBytes String length: 663060
+00:55:57:635434600 Alice -   - downMutex()
+00:55:58:137768100 Alice -   - sendInt: 1
+00:55:58:402559400 Alice -   - upMutex()
+00:55:58:421308900 Alice - Receive encrypted circuit secrets
+00:55:59:222704700 Bob -   - receiveInt: 1
+00:55:59:571394400 Bob -   - downMutex()
+00:55:59:594817500 Bob - Send encrypted circuits secrets
+00:55:59:827865000 Bob -   - sendBytes String length: 234461
+00:56:00:422919500 Bob -   - upMutex()
+00:56:00:448716700 Bob - Reading Loggitude and Latatude
+00:56:02:736095300 Alice -   - receiveBytes String length: 234461
+00:56:03:007858900 Alice -   - downMutex()
+00:56:03:036752600 Alice - SecPayload length: 234461
+00:56:03:459312800 Bob - input.bob_longitude: input.bob_latitude:   - sendBytes String length: 1127
+00:56:03:996125200 Bob -   - upMutex()
+00:56:04:021992400 Bob - Obvious Transfer
+00:56:04:895230200 Alice -   - receiveBytes String length: 1127
+00:56:05:176208700 Alice -   - downMutex()
+00:56:05:220613100 Alice - Reading Loggitude and Latatude
+00:56:05:262362400 Alice - input.alice_longitude: input.alice_latitude: Obvious Transfer
+00:56:05:656639500 Alice -   - sendOTMESS String length: 17304
+00:56:06:244698500 Alice -   - upMutex()
+00:56:07:600983800 Bob -   - receiveOTMESS String length: 17304
+00:56:07:927150300 Bob -   - downMutex()
+00:56:08:427957600 Bob -   - sendOTMESS String length: 34452
+00:56:08:989370400 Bob -   - upMutex()
+00:56:09:017385800 Bob - Get garbled results
+00:56:09:516284000 Alice -   - receiveOTMESS String length: 34452
+00:56:09:789489400 Alice -   - downMutex()
+00:56:10:123866100 Alice -   - sendBytes String length: 16
+00:56:10:699508400 Alice -   - upMutex()
+00:56:10:727968200 Alice - Output results
+00:56:10:754591000 Alice - output.alice: 1
+00:56:12:039524200 Bob -   - receiveBytes String length: 16
+00:56:12:312849200 Bob -   - downMutex()
+00:56:12:339040400 Bob - Output results
+00:56:12:588383500 Bob - output.bob: 1
+
+
+****************************
+****Connect to localhost****
+****************************
+00:59:43:838011400 Bob - Running Bob...
+00:59:43:865954500 Bob - Initialize Connection
+00:59:44:047324200 Bob - Create Connection
+00:59:44:086687300 Bob -   - sendInt: 4
+00:59:44:112817800 Bob -   - upMutex()
+00:59:46:800753600 Alice - Running Alice...
+00:59:46:828897600 Alice - Create Connection
+00:59:46:887868900 Alice -   - receiveInt: 4
+00:59:46:915564000 Alice -   - downMutex()
+00:59:46:945643400 Alice - Connection Established
+00:59:46:985110500 Alice -   - sendInt: 258
+00:59:47:021226700 Alice -   - upMutex()
+00:59:47:069690600 Alice - Parse IOformat file and prepare inputs
+00:59:47:323177600 Alice - Parse Circuit File
+00:59:47:343842900 Bob -   - receiveInt: 258
+00:59:47:395468500 Bob -   - downMutex()
+00:59:47:442125500 Bob - Connection Established
+00:59:47:501543600 Bob - Parse IOformat file and prepare inputs
+00:59:47:555788600 Bob - Parse Circuit File
+00:59:47:656326600 Bob - Start the SFE protocol
+00:59:47:716728200 Bob - Send encrypted circuit
+00:59:47:748032000 Alice - Start the SFE protocol
+00:59:47:779646500 Alice - Receive encrypted circuit
+00:59:47:885945600 Bob -   - sendBytes String length: 663060
+00:59:48:043905900 Bob -   - upMutex()
+00:59:48:775661100 Alice -   - receiveBytes String length: 663060
+00:59:48:833411800 Alice -   - downMutex()
+00:59:49:140237200 Bob -   - sendBytes String length: 663060
+00:59:49:202410200 Bob -   - upMutex()
+00:59:49:865049000 Alice -   - receiveBytes String length: 663060
+00:59:49:923791000 Alice -   - downMutex()
+00:59:49:955388100 Alice -   - sendInt: 1
+00:59:49:981334700 Alice -   - upMutex()
+00:59:50:008518900 Alice - Receive encrypted circuit secrets
+00:59:50:218748800 Bob -   - receiveInt: 1
+00:59:50:233477700 Bob -   - downMutex()
+00:59:50:257594200 Bob - Send encrypted circuits secrets
+00:59:50:285234800 Bob -   - sendBytes String length: 234461
+00:59:50:313248100 Bob -   - upMutex()
+00:59:50:340982500 Bob - Reading Loggitude and Latatude
+00:59:50:995753900 Alice -   - receiveBytes String length: 234461
+00:59:51:022636400 Alice -   - downMutex()
+00:59:51:054717200 Alice - SecPayload length: 234461
+00:59:51:326129000 Bob - input.bob_longitude: input.bob_latitude:   - sendBytes String length: 1127
+00:59:51:351524600 Bob -   - upMutex()
+00:59:51:381940900 Bob - Obvious Transfer
+00:59:52:125490400 Alice -   - receiveBytes String length: 1127
+00:59:52:164960600 Alice -   - downMutex()
+00:59:52:204817300 Alice - Reading Loggitude and Latatude
+00:59:52:235710700 Alice - input.alice_longitude: input.alice_latitude: Obvious Transfer
+00:59:52:391146200 Alice -   - sendOTMESS String length: 17304
+00:59:52:416215900 Alice -   - upMutex()
+00:59:53:385143700 Bob -   - receiveOTMESS String length: 17304
+00:59:53:422464300 Bob -   - downMutex()
+00:59:53:653398300 Bob -   - sendOTMESS String length: 34452
+00:59:53:689999600 Bob -   - upMutex()
+00:59:53:715463000 Bob - Get garbled results
+00:59:54:416391700 Alice -   - receiveOTMESS String length: 34452
+00:59:54:444582100 Alice -   - downMutex()
+00:59:54:521566300 Alice -   - sendBytes String length: 16
+00:59:54:554346800 Alice -   - upMutex()
+00:59:54:579359900 Alice - Output results
+00:59:54:596037500 Alice - output.alice: 1
+00:59:54:701448100 Bob -   - receiveBytes String length: 16
+00:59:54:728130200 Bob -   - downMutex()
+00:59:54:755034100 Bob - Output results
+00:59:54:779580400 Bob - output.bob: 1

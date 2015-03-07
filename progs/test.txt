@@ -1,0 +1,26 @@
+/*
+ * Check which of two Billionaires is richer
+ */
+program Billionaires {
+        type int = Int<32>; // 32-bit integer
+	type AliceInput = int;
+	type AliceInput2 = int;
+	type BobInput = int;
+	type BobInput2 = int;
+	type AliceOutput = Boolean; 
+	type BobOutput = Boolean;
+	type Output = struct {AliceOutput alice,
+            BobOutput bob};
+	type Input = struct {AliceInput alice, AliceInput2 alice2,
+            BobInput bob,BobInput2 bob2};
+
+	function Output output(Input input) {
+            output.alice = (((input.alice+10 > input.bob)&(input.bob+10 > input.alice))
+            &((input.alice2+10 > input.bob2)&(input.bob2+10 > input.alice2)));
+            output.bob = (((input.alice+10 > input.bob)&(input.bob+10 > input.alice))
+            &((input.alice2+10 > input.bob2)&(input.bob2+10 > input.alice2)));
+            
+            //output.alice = ((input.alice - input.bob) + (input.alice - input.bob) + (input.alice2 - input.bob2) + (input.alice2 - input.bob2)) < 100;
+            //output.bob = ((input.alice - input.bob) * (input.alice - input.bob) + (input.alice2 - input.bob2) + (input.alice2 - input.bob2)) < 100;
+	}
+}

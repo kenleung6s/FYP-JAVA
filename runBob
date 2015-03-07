@@ -1,0 +1,6 @@
+#!/bin/bash
+
+CURRENT_DIR=`dirname $0`
+cd ${CURRENT_DIR}
+
+java -classpath ./bin Bob -r progs/Nearness.txt daj5jafdd2 4 1638 2638

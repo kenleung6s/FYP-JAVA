@@ -1,0 +1,139 @@
+Sat, Mar  7, 2015  9:55:38 PM Running Bob...
+Sat, Mar  7, 2015  9:55:38 PM Initialize Connection
+Sat, Mar  7, 2015  9:55:38 PM Create Connection
+Sat, Mar  7, 2015  9:55:38 PM   - sendInt: 4
+Sat, Mar  7, 2015  9:55:38 PM   - upMutex()
+Sat, Mar  7, 2015  9:55:45 PM Running Alice...
+Sat, Mar  7, 2015  9:55:45 PM Create Connection
+Sat, Mar  7, 2015  9:55:45 PM   - receiveInt: 4
+Sat, Mar  7, 2015  9:55:45 PM   - downMutex()
+Sat, Mar  7, 2015  9:55:45 PM Connection Established
+Sat, Mar  7, 2015  9:55:45 PM   - sendInt: 258
+Sat, Mar  7, 2015  9:55:45 PM   - upMutex()
+Sat, Mar  7, 2015  9:55:45 PM Parse IOformat file and prepare inputs
+Sat, Mar  7, 2015  9:55:45 PM Parse Circuit File
+Sat, Mar  7, 2015  9:55:46 PM Start the SFE protocol
+Sat, Mar  7, 2015  9:55:46 PM   - receiveInt: 258
+Sat, Mar  7, 2015  9:55:46 PM Receive encrypted circuit
+Sat, Mar  7, 2015  9:55:46 PM   - downMutex()
+Sat, Mar  7, 2015  9:55:46 PM Connection Established
+Sat, Mar  7, 2015  9:55:46 PM Parse IOformat file and prepare inputs
+Sat, Mar  7, 2015  9:55:46 PM Parse Circuit File
+Sat, Mar  7, 2015  9:55:46 PM Start the SFE protocol
+Sat, Mar  7, 2015  9:55:46 PM Send encrypted circuit
+Sat, Mar  7, 2015  9:55:46 PM   - sendBytes String length: 663060
+Sat, Mar  7, 2015  9:55:46 PM   - upMutex()
+Sat, Mar  7, 2015  9:55:47 PM   - receiveBytes String length: 663060
+Sat, Mar  7, 2015  9:55:47 PM   - downMutex()
+Sat, Mar  7, 2015  9:55:47 PM   - sendBytes String length: 663060
+Sat, Mar  7, 2015  9:55:48 PM   - upMutex()
+Sat, Mar  7, 2015  9:55:48 PM   - receiveBytes String length: 663060
+Sat, Mar  7, 2015  9:55:48 PM   - downMutex()
+Sat, Mar  7, 2015  9:55:48 PM   - sendInt: 1
+Sat, Mar  7, 2015  9:55:48 PM   - upMutex()
+Sat, Mar  7, 2015  9:55:48 PM Receive encrypted circuit secrets
+Sat, Mar  7, 2015  9:55:49 PM   - receiveInt: 1
+Sat, Mar  7, 2015  9:55:49 PM   - downMutex()
+Sat, Mar  7, 2015  9:55:49 PM Send encrypted circuits secrets
+Sat, Mar  7, 2015  9:55:49 PM   - sendBytes String length: 234461
+Sat, Mar  7, 2015  9:55:49 PM   - upMutex()
+Sat, Mar  7, 2015  9:55:49 PM Reading Loggitude and Latatude
+Sat, Mar  7, 2015  9:55:49 PM   - receiveBytes String length: 234461
+Sat, Mar  7, 2015  9:55:49 PM   - downMutex()
+Sat, Mar  7, 2015  9:55:49 PM SecPayload length: 234461
+Sat, Mar  7, 2015  9:55:50 PM input.bob_longitude: input.bob_latitude:   - sendBytes String length: 1127
+Sat, Mar  7, 2015  9:55:50 PM   - upMutex()
+Sat, Mar  7, 2015  9:55:50 PM Obvious Transfer
+Sat, Mar  7, 2015  9:55:50 PM   - receiveBytes String length: 1127
+Sat, Mar  7, 2015  9:55:50 PM   - downMutex()
+Sat, Mar  7, 2015  9:55:50 PM Reading Loggitude and Latatude
+Sat, Mar  7, 2015  9:55:50 PM input.alice_longitude: input.alice_latitude: Obvious Transfer
+Sat, Mar  7, 2015  9:55:50 PM   - sendOTMESS String length: 17304
+Sat, Mar  7, 2015  9:55:50 PM   - upMutex()
+Sat, Mar  7, 2015  9:55:51 PM   - receiveOTMESS String length: 17304
+Sat, Mar  7, 2015  9:55:51 PM   - downMutex()
+Sat, Mar  7, 2015  9:55:51 PM   - sendOTMESS String length: 34452
+Sat, Mar  7, 2015  9:55:51 PM   - upMutex()
+Sat, Mar  7, 2015  9:55:51 PM Get garbled results
+Sat, Mar  7, 2015  9:55:51 PM   - receiveOTMESS String length: 34452
+Sat, Mar  7, 2015  9:55:51 PM   - downMutex()
+Sat, Mar  7, 2015  9:55:51 PM   - sendBytes String length: 16
+Sat, Mar  7, 2015  9:55:51 PM   - upMutex()
+Sat, Mar  7, 2015  9:55:51 PM Output results
+Sat, Mar  7, 2015  9:55:51 PM output.alice: 1
+Sat, Mar  7, 2015  9:55:52 PM   - receiveBytes String length: 16
+Sat, Mar  7, 2015  9:55:52 PM   - downMutex()
+Sat, Mar  7, 2015  9:55:52 PM Output results
+Sat, Mar  7, 2015  9:55:52 PM output.bob: 1
+22:09:35:348923300 Running Bob...
+22:09:35:374359000 Initialize Connection
+22:09:35:404625800 Create Connection
+22:09:35:425478600   - sendInt: 4
+22:09:35:451407900   - upMutex()
+22:09:41:852913600 Running Alice...
+22:09:41:878595700 Create Connection
+22:09:41:908155700   - receiveInt: 4
+22:09:41:936902900   - downMutex()
+22:09:41:968744200 Connection Established
+22:09:41:993365900   - sendInt: 258
+22:09:42:028257200   - upMutex()
+22:09:42:063844600 Parse IOformat file and prepare inputs
+22:09:42:099337800 Parse Circuit File
+22:09:42:370912200 Start the SFE protocol
+22:09:42:395617400 Receive encrypted circuit
+22:09:42:469899000   - receiveInt: 258
+22:09:42:501590300   - downMutex()
+22:09:42:533567100 Connection Established
+22:09:42:566810800 Parse IOformat file and prepare inputs
+22:09:42:591340600 Parse Circuit File
+22:09:42:756299500 Start the SFE protocol
+22:09:42:778206700 Send encrypted circuit
+22:09:42:952971500   - sendBytes String length: 663060
+22:09:43:109064800   - upMutex()
+22:09:43:414940000   - receiveBytes String length: 663060
+22:09:43:467805300   - downMutex()
+22:09:44:211264100   - sendBytes String length: 663060
+22:09:44:265835500   - upMutex()
+22:09:44:492070000   - receiveBytes String length: 663060
+22:09:44:548550800   - downMutex()
+22:09:44:577262800   - sendInt: 1
+22:09:44:604675000   - upMutex()
+22:09:44:632964000 Receive encrypted circuit secrets
+22:09:45:284161500   - receiveInt: 1
+22:09:45:312219400   - downMutex()
+22:09:45:338578800 Send encrypted circuits secrets
+22:09:45:366535900   - sendBytes String length: 234461
+22:09:45:393145200   - upMutex()
+22:09:45:407709400 Reading Loggitude and Latatude
+22:09:45:621564200   - receiveBytes String length: 234461
+22:09:45:651927300   - downMutex()
+22:09:45:673085800 SecPayload length: 234461
+22:09:46:397871800 input.bob_longitude: input.bob_latitude:   - sendBytes String length: 1127
+22:09:46:422852000   - upMutex()
+22:09:46:449832100 Obvious Transfer
+22:09:46:742280600   - receiveBytes String length: 1127
+22:09:46:765901000   - downMutex()
+22:09:46:801608900 Reading Loggitude and Latatude
+22:09:46:836095900 input.alice_longitude: input.alice_latitude: Obvious Transfer
+22:09:46:961697000   - sendOTMESS String length: 17304
+22:09:46:987282200   - upMutex()
+22:09:47:446905200   - receiveOTMESS String length: 17304
+22:09:47:477086800   - downMutex()
+22:09:47:707374200   - sendOTMESS String length: 34452
+22:09:47:730756300   - upMutex()
+22:09:47:743974600 Get garbled results
+22:09:47:996941700   - receiveOTMESS String length: 34452
+22:09:48:013409600   - downMutex()
+22:09:48:093823600   - sendBytes String length: 16
+22:09:48:123326400   - upMutex()
+22:09:48:139933500 Output results
+22:09:48:166642400 output.alice: 1
+22:09:48:737805200   - receiveBytes String length: 16
+22:09:48:752857200   - downMutex()
+22:09:48:777880500 Output results
+22:09:48:801064900 output.bob: 1
+00:51:19:243540900 Running Bob...
+00:51:19:281220900 Initialize Connection
+00:51:20:048969500 Create Connection
+00:51:20:874342600   - sendInt: 4
+00:51:21:141411700   - upMutex()

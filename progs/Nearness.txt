@@ -1,0 +1,62 @@
+/*
+ * Check if two coordinates are close to each other
+ */
+program Nearness {
+    type int = Int<32>; // 32-bit integer
+	type AliceInput = int;
+	type AliceInput2 = int;
+	
+	type BobInput = int;
+	type BobInput2 = int;
+	
+	type AliceOutput = Boolean; 
+	type BobOutput = Boolean;
+	type Output = struct {AliceOutput alice,
+            BobOutput bob};
+	type Input = struct {AliceInput alice_latitude, AliceInput2 alice_longitude,
+            BobInput bob_latitude,BobInput2 bob_longitude};
+            
+
+	
+	function Output output(Input input) {
+            
+			var int r1;
+			var int r2;
+			var int a;
+			var int b;
+			var int i;
+			
+			//a = x1-x2, b=y1-y2
+			if (input.alice_latitude > input.bob_latitude){
+				a = input.alice_latitude - input.bob_latitude;
+			} else {
+				a = input.bob_latitude - input.alice_latitude;
+			}
+			
+			if (input.alice_longitude > input.bob_longitude){
+				b = input.alice_longitude - input.bob_longitude;
+			} else {
+				b = input.bob_longitude - input.alice_longitude;
+			}
+			
+			//r1 = a^2 = (x1-x2)^2, r2 = b^2 = (y1-y2)^2
+			r1 = 0; r2 = 0;
+            for (i = 1 to 20) {
+				if (i <= a)
+					r1 = r1 + a;
+				
+			}
+			for (i = 1 to 20) {
+				if (i <= b)
+					r2 = r2 + b;
+				
+			}
+			
+			//(x1-x2)^2 + (y1-y2)^2 <= r^2
+            output.alice = r1+r2 <= 100;
+            output.bob = r1+r2 <= 100;
+	}
+	
+	
+	
+}

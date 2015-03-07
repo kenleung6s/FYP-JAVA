@@ -1,0 +1,6 @@
+#!/bin/bash
+
+CURRENT_DIR=`dirname $0`
+cd ${CURRENT_DIR}
+
+java -classpath ./bin Alice -r progs/Nearness.txt grewrf6ui6 noHostname 1638 2638

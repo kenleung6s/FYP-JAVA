@@ -1,0 +1,5 @@
+00:51:21:512152700 Running Bob...
+00:51:21:540371200 Initialize Connection
+00:51:22:352491600 Create Connection
+00:51:23:169892600   - sendInt: 4
+00:51:23:449730600   - upMutex()

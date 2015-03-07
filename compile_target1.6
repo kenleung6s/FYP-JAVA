@@ -1,0 +1,6 @@
+#!/bin/bash
+
+CURRENT_DIR=`dirname $0`
+cd ${CURRENT_DIR}
+
+javac -source 1.6 -target 1.6 -d ./bin ./src/*.java
